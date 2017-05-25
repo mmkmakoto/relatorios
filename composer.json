@@ -14,7 +14,7 @@
         "mmkmakoto/backform" : "dev-master"
     },
     "repositories": [
-    { "type": "git", "url": "https://github.com/mmkmakoto/backform.git" },
+    { "type": "git", "url": "https://github.com/mmkmakoto/backform.git" }
     ],
     "autoload": {
         "psr-4": {
