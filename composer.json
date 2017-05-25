@@ -1,0 +1,29 @@
+{
+    "name": "mmkmakoto/relatorios",
+    "description": "relatorios fáceis e rápidos",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Marcos Makoto Kato",
+            "email": "mmkmakoto@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "nesbot/carbon": "~1.20",
+        "mmkmakoto/backform" : "dev-master"
+    },
+    "repositories": [
+    { "type": "git", "url": "https://github.com/mmkmakoto/backform.git" },
+    ],
+    "autoload": {
+        "psr-4": {
+            "Relatorios\\": "src/Relatorios"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "master"
+        }
+    }
+}
