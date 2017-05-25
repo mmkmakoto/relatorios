@@ -4,7 +4,7 @@ namespace Relatorios;
 use Illuminate\Http\Response;
 use Carbon\Carbon;
 
-abstract class RelatoriosAbstract
+abstract class Relatorio
 {
 	public static function descricao()
 	{
