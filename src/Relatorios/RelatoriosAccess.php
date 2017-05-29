@@ -44,7 +44,13 @@ abstract class RelatoriosAccess
 		$entrada = [];
 		foreach($campos as $campo)
 		{
-			$entrada[$campo['nome']] = $campo['resposta'];
+			if(isset($campo['resposta'])){
+				$entrada[$campo['nome']] = $campo['resposta'];
+			}
+			else
+			{
+				$entrada[$campo['nome']] = null;
+			}
 		}
 		return $entrada;
 	}
